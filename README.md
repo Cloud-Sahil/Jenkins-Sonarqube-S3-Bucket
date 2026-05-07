@@ -20,12 +20,11 @@ sudo -i
 ```sh
 apt update
 ```
-### Install Java
-
 ### Install Maven
 ```bash
 apt install maven -y
 ```
+### Install Java
 ### Install Jenkins
 
 Follow official Jenkins documentation
