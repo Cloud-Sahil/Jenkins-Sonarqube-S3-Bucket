@@ -20,10 +20,8 @@ sudo -i
 ```sh
 apt update
 ```
-### Install Java 17
-```bash
-apt install openjdk-17-jdk -y
-```
+### Install Java
+
 ### Install Maven
 ```bash
 apt install maven -y
@@ -60,7 +58,7 @@ apt install docker.io -y
 ```
 ### Run SonarQube
 ```bash
-docker run -d --name sonarqube-custom -p 9000:9000 sonarqube:10.6-community
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 ```sh
 docker ps
